@@ -1,0 +1,43 @@
+# PHP / XAMPP
+uploads/*
+outputs/*
+temp/*
+!uploads/.gitkeep
+!outputs/.gitkeep
+!temp/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+*.egg
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Claude Code (local only)
+.claude/
+
+# Dependencies (if using pip)
+python/venv/
+venv/
+env/
+
+# Logs
+*.log
+
+# Environment / local config
+.env
+.env.local
+settings.local.json

@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?action=$1 [QSA,L]
+
+# Increase upload limits
+php_value upload_max_filesize 200M
+php_value post_max_size 220M
+php_value max_execution_time 600
+php_value memory_limit 512M
